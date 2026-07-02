@@ -1,0 +1,40 @@
+## Install Required Libraries
+Open the VS Code terminal and run:
+
+pip install SpeechRecognition pyttsx3 pywhatkit pyaudio
+
+## If pyaudio gives an error, run:
+pip install pipwin
+pipwin install pyaudio
+-----------
+## Install pyttsx3
+Run:
+py -m pip install pyttsx3
+
+## If that doesn't work, try:
+pip install pyttsx3
+or
+python -m pip install pyttsx3
+----
+## Install All Required Libraries
+py -m pip install pyttsx3 SpeechRecognition pyaudio pywhatkit
+
+## If pyaudio fails to install:
+
+py -m pip install pipwin
+pipwin install pyaudio
+
+------
+## Verify Installation
+Run:
+py -m pip list
+
+You should see something like:
+pyttsx3
+SpeechRecognition
+PyAudio
+pywhatkit
+----
+
+## Run Your Program Again
+py voice_assistant.py
